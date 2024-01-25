@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Ubuntu+Condensed&family=Varela+Round&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Varela Round',Arial;
+    
+}
+body{
+    background-color: #002339;
+    color: #fff;
+}
+.container{
+    margin: 12%;
+    width: 90%;
+    max-width: 700px;
+}
+.container h1{
+    font-weight: 500;
+    font-size: 45px;
+}
+.container h1 span{
+    color: #019f55;
+    border-bottom: 4px solid #019f55;
+    padding: 7px;
+}
+.display{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    padding: 26px 20px;
+    background-color: #fff;
+    color: #333;
+}
+.display i{
+    font-size: 30px;
+    color: #019f55;
+    cursor: pointer;
+}
+    .display input{
+
+        border: none;
+        font-size: 24px;
+
+    }
+
+button {
+    border: none;
+    height: 60px;
+    font-family: 'Varela Rpund',Arial;
+    margin-top: 15px;
+    width: 190px;
+    border-radius: 5px;
+    font-weight: 500;
+    color: white;
+    font-size: 1rem;
+    background-color: #019f55;
+    cursor: pointer;
+}
